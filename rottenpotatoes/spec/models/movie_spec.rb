@@ -21,4 +21,10 @@ describe Movie do
       end
     end
   end
+  
+  describe '.all_ratings' do
+    it 'returns all ratings' do
+      expect(Movie.all_ratings).to match(%w(G PG PG-13 NC-17 R))
+    end
+  end
 end
