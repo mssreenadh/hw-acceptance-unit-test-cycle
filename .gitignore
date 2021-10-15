@@ -5,6 +5,5 @@ rottenpotatoes/coverage/
 rottenpotatoes/db/*.sqlite3
 rottenpotatoes/db/schema.rb
 rottenpotatoes/lib/tasks/
-rottenpotatoes/log/
 rottenpotatoes/tmp/
 rottenpotatoes/vendor/bundle
